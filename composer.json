@@ -1,0 +1,19 @@
+{
+    "name": "rtraselbd/bkash-php",
+    "type": "library",
+    "description": "A PHP library for integrating with the bKash payment gateway",
+    "keywords": ["bKash", "payment", "library", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Rasel Islam",
+            "email": "rtraselbd@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RT\\bKash\\": "src/"
+        }
+    }
+}
